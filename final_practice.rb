@@ -6,15 +6,36 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
+
+def greeting(name)
+   "Hello and welcome to my method"
+end    
+
+puts greeting("Morgan")
+   
+
 # What is the return value of your method?
+# The return value for the method is the variable argument.
 # How many arguments did you pass your method?
+# I passed one argument to my method.
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
+
+def custom_greeting(name)
+    puts "Hello and welcome to my method #{name}"
+end    
+
+puts custom_greeting("Alaska")
+puts custom_greeting("Salem")
+
 # What is the return value of your method?
+#THe return value of my method is
 # How many arguments did you pass your method?
+# I passed two arguement.
 # What data type was your argument(s)?
+# My arguments strings.
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -26,6 +47,13 @@
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
+def greet_person(first,middle,last)
+    "Hello #{first} #{middle} #{last}"
+end
+
+puts greet_person("Alaska", "Jones", "Johnson")
+
+
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
